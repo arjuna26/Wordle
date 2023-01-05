@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const letterInThatPosition = word.charAt(index);
-        const isCorrectPosition = letter = letterInThatPosition;
+        const isCorrectPosition = (letter === letterInThatPosition);
 
         if (isCorrectPosition) {
             return "rgb(83, 141, 78)";
